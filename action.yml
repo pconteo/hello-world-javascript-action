@@ -2,10 +2,11 @@ name: Hello World
 description: Greet someone and record the time
 
 inputs:
-    who-to-greet: # id of input
-    description: Who to greet
+  who-to-greet:
+    description: 'Chi salutare'
     required: true
-    default: World
+    default: 'World'
+
 
 outputs:
    time: # id of output
