@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: pconteo/hello-world-javascript-action@v1
+        uses: pconteo/hello-world-javascript-action@main
         with:
           who-to-greet: Pierangelo
 
