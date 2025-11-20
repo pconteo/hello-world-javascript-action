@@ -1,7 +1,9 @@
+name: Say Hello on Issue
+
 on:
-  push:
-    branches:
-      - main
+  issues:
+    types:
+      - opened  # trigger quando viene creata una nuova issue
 
 jobs:
   hello_world_job:
